@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>보충 자료 · 기존 문서를 PPT로 만들기 — 강의안</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Gaegu:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div class="page" data-direction="a">
+    <div class="wrap note-top">
+      <a class="note-back" href="../index.html#library">← 강의 자료실로 돌아가기</a>
+    </div>
+
+    <article class="note-wrap">
+      <header class="note-head">
+        <span class="kicker">보충 자료 · 문서 → PPT</span>
+        <h1>기존 문서를 PPT로 만들기</h1>
+        <div class="note-meta">
+          <span>📄 docx · ppt · pdf · img</span>
+          <span>🧭 3가지 경로</span>
+        </div>
+      </header>
+
+      <div class="note-body">
+        <p>이미 가지고 있는 문서를 발표자료(PPT)로 바꾸는 길은 크게 <b>세 가지</b>예요. “어떤 도구로, 어떤 문서를, 어떻게”를 나눠서 보면 깔끔합니다. 일반인 실습은 <b>경로 1</b>만 메인으로 잡고, 2·3은 “더 전문적으로 하면 이런 것도 된다”로 소개하면 부담이 적어요.</p>
+
+        <h2>1. 어떤 문서를 넣을 수 있나요?</h2>
+        <p>아래 형식의 문서를 그대로 올리면 됩니다.</p>
+        <div class="note-fmt">
+          <div class="fmt"><span class="ft">docx</span><span class="fd">워드 — 텍스트 구조 그대로 변환</span></div>
+          <div class="fmt"><span class="ft">pdf</span><span class="fd">PDF — 내용을 읽어 슬라이드로</span></div>
+          <div class="fmt"><span class="ft">ppt</span><span class="fd">기존 덱을 직접 읽어 재구성</span></div>
+          <div class="fmt"><span class="ft">img</span><span class="fd">이미지 속 내용을 슬라이드 소재로</span></div>
+        </div>
+        <ul>
+          <li><b>docx · pdf</b> — 텍스트 구조를 그대로 읽어 슬라이드로 변환 (가장 잘 됩니다)</li>
+          <li><b>ppt</b> — 경로 2(애드인)에서 기존 덱을 직접 읽어 편집·재구성</li>
+          <li><b>이미지(img)</b> — 도표·사진 캡처 등 이미지 속 내용을 읽어 슬라이드 소재로 활용</li>
+        </ul>
+
+        <h2>2. 텍스트 → 디자인 텍스트 (핵심!)</h2>
+        <p>여기가 가장 인상적인 부분이에요. 단순히 글자를 옮기는 게 아니라 <b>줄글·불릿을 시각 요소로 바꿔준다</b>는 점입니다. 슬라이드·차트·도형이 <b>네이티브 파워포인트 객체</b>로 생성되어, 다른 슬라이드처럼 자유롭게 수정할 수 있어요.</p>
+        <div class="note-steps-num">
+          <div class="note-step"><span class="ns">1</span><span class="nst"><b>텍스트 → 디자인 텍스트</b> — 밋밋한 줄글을 제목·소제목·강조 위계가 잡힌 슬라이드 문구로 재구성</span></div>
+          <div class="note-step"><span class="ns">2</span><span class="nst"><b>텍스트+이미지 → 디자인된 텍스트+이미지</b> — 불릿은 다이어그램·차트로, 단순 나열은 카드·타임라인 레이아웃으로 배치</span></div>
+        </div>
+        <div class="note-callout">
+          <p><strong>이렇게 요청해 보세요</strong></p>
+          <p>“이 불릿들을 프로세스 플로우 다이어그램으로 바꿔줘”<br/>“Q1과 Q4를 비교하는 막대그래프를 만들어줘”</p>
+        </div>
+
+        <h2>3. 만드는 세 가지 경로</h2>
+
+        <h3>경로 1. 클로드 채팅에서 .pptx 만들기 — 가장 쉽고 범용</h3>
+        <p>문서를 채팅창에 올리고 “PPT로 만들어줘”라고 하면 됩니다. 클로드가 원본의 텍스트 구조를 유지하며 슬라이드를 작성하고, 코드를 실행해 파일을 만든 뒤 다운로드 링크를 대화창에 올려줍니다.</p>
+        <div class="note-callout">
+          <p><strong>사전 준비</strong></p>
+          <p>설정(Settings) → 기능(Capabilities) → <b>‘코드 실행 및 파일 생성’</b>을 켜두세요. 모든 유료 플랜에서 .pptx 생성이 가능합니다.</p>
+        </div>
+
+        <h3>경로 2. 클로드 for PowerPoint 애드인 — 내 템플릿 그대로 살릴 때</h3>
+        <p>파워포인트 안에서 직접 작동합니다. 기존 덱의 레이아웃·폰트·색상·슬라이드 마스터를 읽어 <b>내 서식을 존중하며</b> 편집해줘요. 회사·학교 템플릿을 유지한 채 변환하거나, 특정 슬라이드만 콕 집어 수정할 수 있습니다. 웹·윈도우·맥 파워포인트에서 쓸 수 있고 유료 플랜(Pro·Max·Team·Enterprise)이 필요합니다.</p>
+
+        <h3>경로 3. 클로드 디자인 — 시각적으로 화려한 덱</h3>
+        <p>디자인 중심 덱에 좋지만 주의점이 있어요. 결과물이 <b>HTML 파일</b>로 나와서, .pptx나 구글 슬라이드처럼 평소 프로그램에서 바로 열려면 변환이 필요합니다. 또 회사 브랜드 PPT 템플릿을 업로드해 쓰는 기능은 없습니다.</p>
+
+        <h2>추천 실습 흐름</h2>
+        <div class="note-steps-num">
+          <div class="note-step"><span class="ns">1</span><span class="nst">변환할 문서 1개 준비 (docx 또는 pdf)</span></div>
+          <div class="note-step"><span class="ns">2</span><span class="nst">클로드 채팅에 올리고 이렇게 요청: <b>“이 문서를 12장짜리 발표자료로 만들어줘. 핵심만 슬라이드당 3줄 이내로, 불릿은 가능하면 다이어그램으로. .pptx로 내보내줘”</b></span></div>
+          <div class="note-step"><span class="ns">3</span><span class="nst">나온 파일을 파워포인트에서 열어 확인</span></div>
+          <div class="note-step"><span class="ns">4</span><span class="nst">더 다듬고 싶으면 → 경로 2(애드인)로 슬라이드별 미세 수정</span></div>
+        </div>
+
+        <div class="note-foot">
+          <a class="note-back" href="../index.html#library">← 강의 자료실</a>
+          <a class="btn btn-primary btn-sm" href="../index.html#resources">실습용 DESIGN.md 받으러 가기</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</body>
+</html>

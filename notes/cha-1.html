@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>skill 1 · 클로드 디자인 첫걸음 — 강의안</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Gaegu:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div class="page" data-direction="a">
+    <div class="wrap note-top">
+      <a class="note-back" href="../index.html#library">← 강의 자료실로 돌아가기</a>
+    </div>
+    <article class="note-wrap">
+      <header class="note-head">
+        <span class="kicker">skill 1 강의안</span>
+        <h1>클로드 디자인 첫걸음</h1>
+        <div class="note-meta">
+          <span>⏰ 오후 2:00 ~ 5:00</span>
+          <span>📍 작은행동한사랑 3층 교육장</span>
+        </div>
+      </header>
+      <div class="note-body">
+        <p>디자인을 못해도 디자인을 할 수 있어요. 빈 화면이 아니라 ‘대화’로 만든다는 것 — 첫 시간엔 직접 하나 만들어보며 “되는구나”를 경험합니다.</p>
+
+        <div class="mk">
+          <div class="mk-cap"><span class="d"></span>이 시간에 만드는 결과물 미리보기</div>
+          <div class="mk-card"><div class="e">우리 가족</div><div class="t">봄 나들이 초대</div><div class="s">2026. 4월 · 따뜻한 인사 카드</div></div>
+        </div>
+
+        <h2>학습 목표</h2>
+        <ul>
+          <li>클로드 디자인이 무엇이고, 기존 디자인 도구와 무엇이 다른지 이해한다.</li>
+          <li>접속 방법과 화면 구성(채팅+캔버스)을 익힌다.</li>
+          <li>‘대화로 만든다’ — 묻고 답하며 완성하는 단계별 제안 과정을 이해한다.</li>
+          <li>간단한 결과물 하나를 직접 만들어 본다.</li>
+        </ul>
+
+        <h2>핵심 내용</h2>
+        <ul>
+          <li>도입: ‘디자인을 못해도 디자인을 할 수 있다’ — 빈 화면이 아니라 대화로 만든다는 개념 설명</li>
+          <li>접속: claude.ai/design 접속, 유료 플랜 필요(무료 플랜 제외)라는 점 안내</li>
+          <li>화면 구조: 왼쪽 채팅 / 오른쪽 캔버스(실시간 미리보기), 채팅은 큰 변경, 인라인 코멘트는 작은 수정</li>
+          <li>작동 원리: 요청하면 바로 만들지 않고, 먼저 확인 질문을 거쳐 제안한 뒤 제작한다(아래 핵심 개념 참고)</li>
+          <li>첫 작품: 짧은 문구 하나로 카드 만들어 보기 — ‘만드는 경험’을 첫 시간에 맛보게 하는 것이 목표</li>
+        </ul>
+
+        <h2>핵심 개념 — 클로드 디자인은 ‘대화로’ 만든다</h2>
+        <p>클로드 디자인의 가장 큰 특징은 <b>요청을 받자마자 결과물을 뽑아내지 않는다</b>는 점이에요. 만들기 전에 먼저 ‘무엇을, 어떤 느낌으로, 어떤 규격으로’ 만들지를 되묻습니다. 사람 디자이너에게 “용도가 뭐예요? 색감은요? 크기는요?”를 확인하는 것과 같아요.</p>
+
+        <div class="mk">
+          <div class="mk-cap"><span class="d"></span>예시 — 영상 제작을 요청하면 먼저 되묻는 모습</div>
+          <div class="mk-chat">
+            <div class="mk-bub user">동네 행사 홍보 영상을 만들어줘</div>
+            <div class="mk-bub bot">좋아요! 몇 가지만 먼저 확인할게요.<br>영상 길이는 어느 정도가 좋을까요?
+              <div class="mk-opts">
+                <span class="mk-opt def">15초 (추천)</span>
+                <span class="mk-opt">30초</span>
+                <span class="mk-opt">1분</span>
+              </div>
+            </div>
+            <div class="mk-bub bot">분위기와 화면 비율도 골라 주세요.
+              <div class="mk-opts">
+                <span class="mk-opt def">밝고 경쾌하게</span>
+                <span class="mk-opt">차분하게</span>
+                <span class="mk-opt">세로 9:16</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flow">
+          <div class="flow-step"><span class="fn">1</span><div class="fc"><h4>요청</h4><p>만들고 싶은 것을 말해요. <span class="ex">“동네 행사 홍보 영상을 만들어줘”</span></p></div></div>
+          <div class="flow-step"><span class="fn">2</span><div class="fc"><h4>질문</h4><p>빠진 정보를 되물어요. 길이·분위기·화면 비율을 대개 <b>객관식 보기</b>로, 합리적인 <b>기본값</b>까지 제안해요.</p></div></div>
+          <div class="flow-step"><span class="fn">3</span><div class="fc"><h4>제안·검토</h4><p>답을 모아 미리보기(제안)를 보여주고, 확인하게 해요.</p></div></div>
+          <div class="flow-step"><span class="fn">4</span><div class="fc"><h4>제작</h4><p>동의하면 그때 실제로 만들어요.</p></div></div>
+          <div class="flow-step last"><span class="fn">5</span><div class="fc"><h4>반복</h4><p>한 번에 끝나지 않아도 돼요. 원하는 방향이 나올 때까지 대화로 다듬어요 — <b>결함이 아니라 의도된 기능</b>이에요.</p></div></div>
+        </div>
+
+        <div class="note-callout">
+          <p><strong>수강생에게 강조할 점</strong></p>
+          <p>① 질문이 뜨면 귀찮아 말고 답하기 — 답할수록 결과가 좋아져요.<br>
+          ② 처음 결과가 마음에 안 들어도 정상이에요. 대화로 고쳐가는 도구예요.<br>
+          ③ “알아서 해줘”보다 <b>“이렇게 해줘”</b>라고 구체적으로 말할수록 질문이 짧아지고 결과가 정확해져요.</p>
+        </div>
+
+        <h2>실습 활동</h2>
+        <div class="note-callout">
+          <p><strong>예시 프롬프트</strong></p>
+          <p>“가족 모임 초대 카드를 만들어줘. 따뜻하고 정겨운 느낌으로, 가운데에 ‘우리 가족 봄 나들이’ 문구를 크게 넣어줘.”</p>
+        </div>
+        <p>→ 나온 결과를 보고 “글씨를 더 크게”, “배경을 연한 노란색으로”처럼 채팅으로 한두 번 고쳐 본다.</p>
+
+        <h2>결과물</h2>
+        <div class="note-callout">
+          <p><strong>간단한 인사·안내 카드 1종 (화면 캡처 또는 내보내기)</strong></p>
+        </div>
+
+        <h2>강사 유의사항 · 팁</h2>
+        <ul>
+          <li>수강생 대부분이 ‘결과가 바로 보인다’는 점에 흥미를 느낌 — 첫 시간엔 완성도보다 ‘되는구나’를 경험시키기</li>
+          <li>유료 구독이 없는 수강생은 강사 화면 시연 + 무료로 가능한 대안(클로드 채팅) 병행 안내</li>
+        </ul>
+
+        <div class="note-supp">
+          <span class="ns-tag">보충 자료</span>
+          <h3>시작 메뉴와 디자인 시스템 셋업</h3>
+          <p class="ns-sub">처음 들어가면 ‘무엇을 만들지’부터 고릅니다 — 네 가지 메뉴 + 디자인 시스템 선택</p>
+
+          <div class="mk" style="margin-top:18px">
+            <div class="mk-cap"><span class="d"></span>시작 화면 — 만들기 유형 선택</div>
+            <div class="mk-menu">
+              <span class="mk-tab on">Prototype</span>
+              <span class="mk-tab">Slide deck</span>
+              <span class="mk-tab">Template</span>
+              <span class="mk-tab">Other</span>
+            </div>
+            <div class="mk-panel">
+              <div class="mk-field">Project name</div>
+              <div class="mk-lab">Design system</div>
+              <div class="mk-field sel">reveal.js Design System <span class="mk-sub">Org default · 19 assets</span></div>
+              <div class="mk-choices">
+                <div class="mk-choice"><span class="bar" style="width:70%"></span><span class="bar soft" style="width:50%"></span><small>Wireframe</small></div>
+                <div class="mk-choice on"><span class="bar" style="width:80%"></span><span class="bar" style="width:40%"></span><small>High fidelity</small></div>
+              </div>
+              <div class="mk-create">Create</div>
+            </div>
+          </div>
+
+          <ul>
+            <li><b>Prototype</b> — 클릭되는 화면 시안. 처음엔 <b>High fidelity</b>를 고르면 됩니다.</li>
+            <li><b>Slide deck</b> — 발표자료. 발표 멘트가 필요하면 발표자 노트를 켭니다.</li>
+            <li><b>Template</b> — 반복해 쓰는 서식·틀 / <b>Other</b> — 카드뉴스·포스터 등 자유 제작</li>
+            <li><b>디자인 시스템</b> — 색·글꼴·버튼을 정해 둔 ‘내 스타일 묶음’. <b>Add assets</b>에 DESIGN.md를 올리면 한 번에 차려집니다.</li>
+          </ul>
+          <p style="margin-top:10px"><a class="ld-note-link" style="display:inline-block" href="cha-menu.html">📄 시작 메뉴·디자인 시스템 강의안 자세히 보기 →</a></p>
+        </div>
+
+        <div class="note-foot">
+          <a class="note-back" href="../index.html#library">← 강의 자료실</a>
+          <a class="btn btn-primary btn-sm" href="cha-2.html">skill 2 강의안 →</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
